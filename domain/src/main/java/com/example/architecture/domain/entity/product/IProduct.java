@@ -1,5 +1,6 @@
 package com.example.architecture.domain.entity.product;
 
+import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 
 public interface IProduct {
@@ -8,7 +9,7 @@ public interface IProduct {
 
     String getDescription();
 
-    ZonedDateTime getCreatedAt();
+    LocalDateTime getCreatedAt();
 
     double getPrice();
 

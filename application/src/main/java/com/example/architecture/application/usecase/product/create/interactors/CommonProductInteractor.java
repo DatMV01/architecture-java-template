@@ -12,7 +12,6 @@ import com.example.architecture.domain.entity.product.IProduct;
 import com.example.architecture.domain.factories.ICommonProductFactory;
 
 public class CommonProductInteractor implements ICommonProductRegisterBoundary {
-
     ICommonProductPresenter presenter;
     ICommonProductFactory factory;
     ICommonProductRegisterGateway gateway;

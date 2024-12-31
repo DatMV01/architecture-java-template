@@ -1,10 +1,11 @@
 package com.example.architecture.domain.entity;
 
+import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import java.util.Objects;
 
 public abstract class BaseEntity<ID> {
-    private final ZonedDateTime createdAt = ZonedDateTime.now();
+    private final LocalDateTime createdAt = LocalDateTime.now();
     private ID id;
 
     public ID getId() {
@@ -15,7 +16,7 @@ public abstract class BaseEntity<ID> {
         this.id = id;
     }
 
-    public ZonedDateTime getCreatedAt() {
+    public LocalDateTime getCreatedAt() {
         return createdAt;
     }
 

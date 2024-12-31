@@ -6,6 +6,9 @@ public class CommonProductRequestModel {
     private String description;
     private double price;
 
+    public CommonProductRequestModel() {
+    }
+
     public CommonProductRequestModel(String id, String name, String description, double price) {
         this.id = id;
         this.name = name;

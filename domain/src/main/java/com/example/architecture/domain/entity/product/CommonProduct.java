@@ -5,6 +5,7 @@ package com.example.architecture.domain.entity.product;
 import com.example.architecture.domain.entity.AggregateRoot;
 import com.example.architecture.domain.valueobject.ProductId;
 
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class CommonProduct extends AggregateRoot<ProductId> implements IProduct {

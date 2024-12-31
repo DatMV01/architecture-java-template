@@ -1,5 +1,6 @@
 package com.example.architecture.application.usecase.product.create.model.request;
 
+
 public class TechnicalProductRequestModel {
     private String id;
     private String name;
@@ -7,6 +8,9 @@ public class TechnicalProductRequestModel {
     private double price;
     private String technicalInformation;
     private String instructionManual;
+
+    public TechnicalProductRequestModel() {
+    }
 
     public TechnicalProductRequestModel(String id, String name, String description, double price, String technicalInformation, String instructionManual) {
         this.id = id;
