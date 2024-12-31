@@ -20,6 +20,11 @@
         </dependency>
 
         <dependency>
+            <groupId>com.example.architecture</groupId>
+            <artifactId>ports</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.version}</version>

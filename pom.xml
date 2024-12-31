@@ -11,6 +11,7 @@
 
     <modules>
         <module>domain</module>
+        <module>ports</module>
         <module>application</module>
         <module>adapter</module>
         <module>infrastructure</module>
@@ -33,6 +34,12 @@
             <dependency>
                 <groupId>com.example.architecture</groupId>
                 <artifactId>domain</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example.architecture</groupId>
+                <artifactId>ports</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
