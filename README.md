@@ -1,0 +1,1 @@
+# architecture-java-template
